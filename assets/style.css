@@ -1,0 +1,56 @@
+/* COLOURS */
+
+.brdr-btm-blue {
+    border-bottom: solid 2px blue;
+}
+
+
+/* COLOURS END */
+
+
+/* TITLE START 
+AND NAV MENU
+FOR SMALL DEVICES */
+
+header {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 2.5em;
+}
+
+#title {
+    text-align: left;
+    display: inline-block;
+    width: 49%;
+    margin: 0;
+    padding: 0;
+}
+
+#title h1,
+#sm-icons ul li {
+    margin: 0;
+    padding: 0;
+}
+
+#sm-icons {
+    display: inline-block;
+    width: 49%;
+    margin: 0;
+    padding: 0;
+}
+
+#sm-icons ul {
+    text-align: right;
+    font-size: larger;
+}
+
+#sm-icons ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 10%;
+}
+
+#nav-menu ul li {
+    display: none;
+}

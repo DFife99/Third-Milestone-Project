@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link href="assets/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="title">
+            <h1>
+                Blackhole
+            </h1>
+        </div>
+        <div id="sm-icons">
+            <ul>
+                <li>
+                    <i class="fas fa-search"></i>
+                </li>
+                <li>
+                    <i class="fas fa-shopping-cart"></i>
+                </li>
+                <li>
+                    <i class="fas fa-bars"></i>
+                </li>
+            </ul>
+        </div>
+        <div id="nav-menu">
+            <ul>
+                <li>
+                    <a href="{{ url_for /index }}">
+                Home
+            </a>
+                </li>
+                <li>
+                    <a href="{{ url_for /phones }}">
+                Phones
+            </a>
+                </li>
+                <li>
+                    <a href="{{ url_for /tablets }}">
+                Tablets
+            </a>
+                </li>
+                <li>
+                    <a href="{{ url_for /contact }}">
+                Contact
+            </a>
+                </li>
+                <li id="search-icon">
+                    <input type="text" placeholder="Search...">
+                    <!-- need to add a font awesome icon -->
+                    <!-- <i class="fas fa-search"></i> -->
+                </li>
+                <li id="shop-icon">
+                    <a href="{{ url_for /store }}">
+                        <!-- Store Function -->
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+</body>
+
+</html>
