@@ -51,6 +51,9 @@ header {
     margin-right: 10%;
 }
 
-#nav-menu ul li {
-    display: none;
+#nav-menu {
+   
+    width: 100px;
+    height: 100px;
+    background: #ccc;
 }
